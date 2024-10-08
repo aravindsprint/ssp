@@ -2121,6 +2121,41 @@ section,
   }
 */
 
+/*.carousel-item img {
+        width: 100%; 
+        height: auto; 
+        object-fit: cover;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: transparent;
+    background-image: none;
+    border: 2px solid #000; 
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-control-prev-icon::after,
+.carousel-control-next-icon::after {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    mask-size: cover;
+    background-color: white; 
+}
+
+.carousel-control-prev-icon::after {
+    mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 8"><path d="M4.5 0l-4 4 4 4v-3h3v-2h-3v-3z" fill="%23000"/></svg>');
+}
+
+.carousel-control-next-icon::after {
+    mask-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 8"><path d="M3.5 0l4 4-4 4v-3h-3v-2h3v-3z" fill="%23000"/></svg>');
+}*/
 
 
 
